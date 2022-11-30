@@ -1,2 +1,2 @@
 #!/bin/bash
-/tmp/iamfile: empty
+echo file /tmp/iamfile
