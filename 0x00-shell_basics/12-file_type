@@ -1,2 +1,2 @@
 #!/bin/bash
-/tmp/iamfile: Bourne-Again shell script, ASCII text executable
+echo "/tmp/iamfile: Bourne-Again shell script, ASCII text executable"
