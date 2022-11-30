@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/tmp/iamfile.txt: ASCII text"
+file /tmp/iamfile
