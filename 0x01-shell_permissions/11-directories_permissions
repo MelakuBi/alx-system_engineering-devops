@@ -1,2 +1,2 @@
 #!/bin/bash
-umask u=rwx,g=rwx,o=rx /0x00-shell_basic/
+chmod ugo+rwx 0x01-shell_permissions/
