@@ -1,3 +1,2 @@
 #!/bin/bash
-lkjflskdjflkdfjdlsfkdfjkgjfkgjkgjjgkljlskgjfkgjkgjkgjgjfgkjkfgjfkgj dfgfggxfbfbfdb > 12-file_type
-echo lkjflskdjflkdfjdlsfkdfjkgjfkgjkgjjgkljlskgjfkgjkgjkgjgjfgkjkfgjfkgj dfgfggxfbfbfdb
+file /tmp/iamfile
