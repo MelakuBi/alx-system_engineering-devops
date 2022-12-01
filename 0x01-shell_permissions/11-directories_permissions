@@ -1,2 +1,2 @@
 #!/bin/bash
-hmod -R u=rwx,g=rwx,o+x /0x00-shell_basic/
+umask u=rwx,g=rwx,o=rx /0x00-shell_basic/
