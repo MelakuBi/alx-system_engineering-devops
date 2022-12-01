@@ -1,2 +1,2 @@
 #!/bin/bash
-cp myDir/0x00-shell_basics/*.html /root/alx-system_engineering-devops/
+cp -n /0x00-shell_basics/*.html /root/alx-system_engineering-devops/
