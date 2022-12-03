@@ -1,2 +1,2 @@
 #!/bin/bash
-mv EXCLUDE bash c js welcome /tmp/u
+mv EXCLUDE [[:lower:]]* /tmp/u
