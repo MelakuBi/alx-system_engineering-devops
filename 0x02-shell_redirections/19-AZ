@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'is substAnces'| tr Ac Ze
+tr Ac Ze
