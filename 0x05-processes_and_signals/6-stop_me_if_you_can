@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # lets kill 4-to_infinity_and_beyond
-prid=$(pgrep -f 4-to_infinity_and_beyond)
+#prid=$(pgrep -f 4-to_infinity_and_beyond)
 pkill -f 4-to_infinity_and_beyond
