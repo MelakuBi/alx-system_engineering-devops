@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this program prints what's current process id
+# ps aux | grep 0-what-is-my-pid
+echo $$
