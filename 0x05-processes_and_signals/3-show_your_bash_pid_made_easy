@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-pgrep bash -l > out | cat out
+pgrep bash -l 

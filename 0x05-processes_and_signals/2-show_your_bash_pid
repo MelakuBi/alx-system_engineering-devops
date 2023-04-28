@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-ps -u | grep bash
-# shellcheck disable=SC2009
+#this script displays lines with bash
+# shellcheck disable SC2009
+ps aux | grep bash
