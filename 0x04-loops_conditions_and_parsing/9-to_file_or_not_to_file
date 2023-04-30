@@ -1,7 +1,19 @@
 #!/usr/bin/env bash
-# print file names without the number prefix using if and else
-
-for file_name in *
-do
-	echo "$file_name" | cut -d "-" -f2-
-done
+#this script checks whether the file is exist or not and if exist
+#checks whether the file is empty or not. also checks whether the 
+#file is regular file or not
+FILE=school
+if [ -e "$FILE" ]
+then 
+	echo "school file exists"
+	if [ -s "$FILE" ]
+	then
+		echo "school file is not empty"
+	else
+		echo "school file is empty"
+	fi
+	if [ -f "$FILE_H" ]
+	then
+		echo "school is a regular file"
+	fi
+fi
