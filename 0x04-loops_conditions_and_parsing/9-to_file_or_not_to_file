@@ -15,5 +15,7 @@ then
 	if [ -f "$FILE" ]
 	then
 		echo "school is a regular file"
+	else
+		exit
 	fi
 fi
