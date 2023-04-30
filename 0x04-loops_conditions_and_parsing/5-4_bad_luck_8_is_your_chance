@@ -3,14 +3,14 @@
 n=0
 while [ $n -le 9 ]
 do
-	if [[ "$n" == 3 ]]
+	if [[ "$n" -eq 3 ]]
 	then
 		echo 'bad luck'
-	elif [[ "$n" == 7 ]]
+	elif [[ "$n" -eq 7 ]]
 	then
 		echo 'good luck'
 	else
-		echo 'Holberton school'
+		echo 'Best School'
 	fi
 	(( n++ ))
 done
