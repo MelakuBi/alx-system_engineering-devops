@@ -12,7 +12,7 @@ then
 	else
 		echo "school file is empty"
 	fi
-	if [ -f "$FILE_H" ]
+	if [ -f "$FILE" ]
 	then
 		echo "school is a regular file"
 	fi
