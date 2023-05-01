@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # lets kill 7-highlander
-prid=$(pgrep -f 7-highlander)
-kill -9 $prid
+#prid=$(pgrep -f 7-highlander)
+pkill -9 -f 7-highlander
