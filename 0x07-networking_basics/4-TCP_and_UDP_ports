@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#this script prints the listning socket and its corrspondent PID and program
+netstat -ltup
