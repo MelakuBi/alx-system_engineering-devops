@@ -1,0 +1,3 @@
+#!/bin/bash
+ssh ubuntu@214703-web-01
+
