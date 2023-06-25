@@ -2,10 +2,8 @@
 # shebang line - The first match in the $PATH environment variable.
 # Share your SSH client configuration in an answer file.
 # That you can connect to a server without typing a password.
-Host *
-    SendEnv LANG LC_*
+endEnv LANG LC_*
     HashKnownHosts yes
     GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
     PasswordAuthentication no
     IdentityFile ~/.ssh/school
