@@ -10,6 +10,6 @@ frontend 1270_main
 backend 1270_web_servers
         balance roundrobin
         option forwardfor
-        server 1270-web-01 35.231.116.150
-        server 1270-web-02 3.89.127.97" | sudo tee -a /etc/haproxy/haproxy.cfg
+        server 214703-web-01 54.175.223.8
+        server 214703-web-02 35.175.104.36" | sudo tee -a /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
