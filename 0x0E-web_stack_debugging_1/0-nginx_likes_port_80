@@ -2,4 +2,5 @@
 # Task 0. Nginx likes port 80
 # replace port 8080 with 80 using sed -i
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+sed -i '22d' /etc/nginx/sites-enabled/default
 sudo service nginx restart

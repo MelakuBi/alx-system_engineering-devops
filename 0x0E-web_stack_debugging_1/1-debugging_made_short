@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
+# 5 lines
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 sudo service nginx restart
-pkill -o nginx
-printf -e '\n'
+kill "$(pgrep nginx | head -1)"
