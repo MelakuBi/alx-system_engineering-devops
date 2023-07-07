@@ -38,16 +38,17 @@ defaults
 
 frontend www-http
         bind *:80
-    reqadd X-Forwarded-Proto:\ http
+	reqadd X-Forwarded-Proto:\ http
         default_backend 1270_web_servers
 
 frontend www-https
-    bind *:443 ssl crt /etc/haproxy/certs/www.sororo.tech
-    reqadd X-Forwarded-Proto:\ https
-    default_backend 1270_web_servers
+	bind *:443 ssl crt /etc/haproxy/certs/www.sororo.tech
+	reqadd X-Forwarded-Proto:\ https
+	default_backend 1270_web_servers
 
 backend 1270_web_servers
         balance roundrobin
         option forwardfor
-    redirect scheme https if !{ ssl_fc }
+	redirect scheme https if !{ ssl_fc }
         server 214703-lb-01 54.165.54.111 check
+        server lb-01 54.165.54.111 check
