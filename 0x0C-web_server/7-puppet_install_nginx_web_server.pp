@@ -22,7 +22,7 @@ exec { 'exec_3':
 exec { 'exec_4':
   require     => Exec['exec_3'],
   environment => ['GG=https://tecnoayuda.co permanent'],
-  command    => 'sudo sed -i "301 \\\trewrite ^/redirect_me $GG;" /etc/nginx/sites-available/default',
+  command    => 'sudo sed -i "301 Moved Permanently \\\trewrite ^/redirect_me $GG;" /etc/nginx/sites-available/default',
   path        => ['/usr/bin', '/bin'],
   returns     => [0,1]
 }
