@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# 5 lines
-#sed '0,/8080/ s//80/' /etc/nginx/sites-enabled/default
-sudo service nginx start
+# configure nginx to litsen port 80 for all ipv4 servers
+cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx start
