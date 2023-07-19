@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-/* run a command as specific user */
+# run a command as specific user
 
 sudo -u "$1" whoami
