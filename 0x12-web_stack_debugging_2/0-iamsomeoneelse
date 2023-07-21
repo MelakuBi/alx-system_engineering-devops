@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 # run a command as specific user
-sudo -u "$1" bash -c 'whoami'
+args=1
+if [ $# -eq $args ]
+then
+    sudo -u "$1" bash -c 'whoami'
+else
+    sudo bash -c 'whoami'
+fi
